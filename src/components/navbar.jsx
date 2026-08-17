@@ -3,7 +3,7 @@ import { FiChevronDown, FiMenu, FiX } from "react-icons/fi"
 
 const NAV_LINKS = [
   {
-    label: "Home", href: "#hero"
+    label: "Home", href: "/"
   },
   {
     label: "Biography", href: "#biography",
@@ -40,6 +40,10 @@ const NAV_LINKS = [
       }
     ],
   },
+  {
+    label: "Fan Verse",
+    href: "/fanverse"
+  }
 ];
 
 function DropdownLink({ link }) {
@@ -100,7 +104,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8">
           <div className="flex items-cneter justify-between h-16 sm:h-20">
             {/* LOGO */}
-            <a href="#" className='flex select-none items-center justify-center'>
+            <a href="/" className='flex select-none items-center justify-center'>
               <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-white">
                 DAVIDO
               </span>

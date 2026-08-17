@@ -4,7 +4,7 @@ import { FaAward, FaGlobe, FaMusic, FaTrophy } from "react-icons/fa";
 const achievements = [
     {
         icon: <FaMusic />,
-        number: 30,
+        number: 99,
         suffix: "+",
         title: "Awards Won",
         description:
@@ -13,7 +13,7 @@ const achievements = [
 
     {
         icon: <FaGlobe />,
-        number: 50,
+        number: 70,
         suffix: "+",
         title: "Countries Reached",
         description:
@@ -31,7 +31,7 @@ const achievements = [
 
     {
         icon: <FaAward />,
-        number: 1,
+        number: 4,
         suffix: "B+",
         title: "Streams",
         description:
